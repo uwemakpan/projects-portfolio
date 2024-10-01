@@ -1,0 +1,30 @@
+Step1: Install package.json file
+npm init -y 
+
+Step2: Install Tailwind as a Dev dependency
+npm i -D tailwindcss 
+
+Step3: Install the tailwind css config file
+npx tailwindcss init
+
+Step4: Edit the tailwind.config file thus: 
+content: ['./*.html'],
+
+Step5: Create the input.css file 
+
+Step6: Insert these directives:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Step7: Create the output.css with the watch directive.
+Run this or put this in the package.json file in the scripts object
+Run at cmd:
+npx tailwindcss -i ./input.css -o output.css --watch
+OR 
+insert in the package.json file 
+"build" : "tailwindcss -i ./input.css -o ./css/style.css"
+"watch" : "tailwindcss -i ./input.css -o ./css/style.css --watch"
+
+Step8: Run the command to build the style.css file 
+npm run build 
