@@ -680,12 +680,20 @@ video {
   height: 100%;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .max-w-2xl {
@@ -1193,6 +1201,12 @@ video {
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
   background: #fff;
+}
+
+.bgimg {
+  height: ;
+  width: 500;
+  border-radius: 50%;
 }
 
 .hover\:cursor-pointer:hover {

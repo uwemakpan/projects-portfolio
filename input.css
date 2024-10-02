@@ -78,3 +78,9 @@
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
   background: #fff;
 }
+
+.bgimg {
+  height: ;
+  width: 500;
+  border-radius: 50%;
+}
